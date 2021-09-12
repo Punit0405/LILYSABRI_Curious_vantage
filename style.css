@@ -1,0 +1,197 @@
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#header{
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(64,224,208);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 300;
+    color: rgba(77,77,77,100);
+    align-items: center;
+    font-family: 'Sofia Pro', sans-serif;
+                                                
+
+    
+}
+.inline{
+    display: inline;
+}
+
+#header h2{
+    font-size: 1.375rem;
+    margin: 25px 0x;
+}
+
+
+
+#logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.pro{color: white;
+    font-size: .80rem;
+    font-family: inherit;
+    margin-left: 8px;
+    padding-top: 2px;
+    padding-left: 6px;
+    border-radius: 6px;
+    padding-right: 6px;
+    padding-bottom: 3px;
+    background-color: #00C464;}
+
+.headerlink{
+    color: rgba(255,255,255,100);
+    font-size: 1rem;
+    font-family: 'Sofia Pro', sans-serif;
+    font-weight: 400;
+    line-height: 1.75;
+}
+#main{
+    
+    font-family: 'Sofia Pro', sans-serif;
+    margin: 0% auto;
+    width: 30%;
+}
+.firstbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 140px;
+    
+    
+}
+
+.firstele{
+    display: flex;
+    width: 100%;
+    /* text-align: center; */
+    color:rgb(77, 77, 77);
+    font-family: 'Sofia Pro', sans-serif;
+    /* justify-content: center; */
+    font-size: 1.2rem;
+    line-height: 1.235;
+    align-items: center;
+    
+}
+.firstbox a{
+    
+    text-decoration: none;
+    color: inherit;
+    
+}
+.secondele{
+    
+    background-color: rgb(241,242,246);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    color:rgb(77, 77, 77);
+    line-height: 3.000;
+    border-radius: 10px;
+}
+.secondele h4{
+    margin: 0% 15px;
+}
+.secondelesvg{
+    align-self: center;
+    justify-content: center;
+    margin: 0% 15px;
+    width: 30px;
+    height: 30px;
+    color: rgba(64,224,208,100);
+    /* border: 2px solid black; */
+    
+    border-radius: 50px;
+}
+.secondelesvg:hover{
+    cursor: pointer;
+    background-color: rgb(160, 155, 155);
+ 
+}
+.second{
+    fill: currentColor;
+    width: 1.2em;
+    height: 1.2em;
+    display: inline-block;
+    font-size: 1.5rem;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    user-select: none;
+}
+
+.svgimg{
+    height:30px;
+    width: 30px;
+
+}
+.secondbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 280px;
+
+}
+#youtubebox{
+    display: grid;
+    grid-template-columns: 1.2fr 3fr;
+    background: linear-gradient(0deg, rgb(40, 40, 40) 0%, rgb(79, 79, 79) 100%);
+    border-radius: 10px;
+    height: 28vh;
+}
+.row{
+    display: grid;
+    grid-template-rows: 1.5fr 1fr;
+}
+
+
+.divlilysabri{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divdesclily{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+#lilyimg{
+    width: 7vw;
+    height: 7vw;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.lilysub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.jss576 {
+    
+    cursor: pointer;
+    width: 30%;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Sofia Pro', sans-serif;
+    border-radius: 6px;
+    
+}
+@media (max-width:1000px){
+    #main{
+        width: 90%;
+    }
+}
+    
+
